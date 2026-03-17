@@ -1,37 +1,65 @@
 # Food Delivery Automation
 
-Yemeksepeti tarzı çalışan bir yemek sipariş ve yönetim uygulaması. **C#** ile geliştirilmiş olup **admin** ve **kullanıcı** olmak üzere iki farklı giriş rolü vardır; her rolün kendine özel ekranları ve işlevleri bulunur.
+> A food ordering and management application built in C#, featuring separate admin and user interfaces inspired by platforms like Yemeksepeti.
 
-## Özellikler
+[![Language](https://img.shields.io/badge/language-C%23-239120)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+[![Platform](https://img.shields.io/badge/platform-.NET-512BD4)](https://dotnet.microsoft.com/)
+[![License](https://img.shields.io/badge/license-educational-orange)](#)
 
-- **Kullanıcı:** Sipariş oluşturma, menü görüntüleme, sipariş takibi
-- **Admin:** Restoran / menü yönetimi, sipariş onayı, raporlama
+---
 
-## Teknolojiler
+## Overview
 
-- **Dil:** C#
-- **Çözüm:** .NET (Visual Studio solution)
-- **Proje yapısı:** `FoodDeliveryAutomation.sln` ana solution dosyasıdır.
+Food Delivery Automation is a desktop application that simulates a food delivery platform. It supports two distinct roles — **Admin** and **User** — each with dedicated screens and functionality.
 
-## Kurulum ve çalıştırma
+---
 
-1. Repoyu klonlayın:
+## Features
+
+### User
+- Browse restaurant menus
+- Place and track orders
+
+### Admin
+- Manage restaurants and menu items
+- Approve and process orders
+- View sales reports
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Language | C# |
+| Framework | .NET (Visual Studio Solution) |
+| Entry Point | `FoodDeliveryAutomation.sln` |
+
+---
+
+## Getting Started
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/mustafaceliker/FoodDeliveryAutomation.git
    cd FoodDeliveryAutomation
    ```
-2. `FoodDeliveryAutomation.sln` dosyasını Visual Studio veya Rider ile açın.
-3. Solution’ı derleyin ve başlangıç projesini çalıştırın (F5 veya Run).
+2. Open `FoodDeliveryAutomation.sln` in Visual Studio or JetBrains Rider.
+3. Build the solution and run the startup project (`F5` or **Run**).
 
-## Proje yapısı
+---
+
+## Project Structure
 
 ```
 FoodDeliveryAutomation/
-├── FoodDeliveryAutomation.sln   # Ana solution
-├── FoodDeliveryAutomation/      # Proje klasörü
+├── FoodDeliveryAutomation.sln   # Solution entry point
+├── FoodDeliveryAutomation/      # Main project directory
 └── README.md
 ```
 
-## Lisans
+---
 
-Bu proje eğitim amaçlıdır.
+## License
+
+This project is developed for educational purposes.
